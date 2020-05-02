@@ -54,7 +54,7 @@ def main():
                     elif submission.id not in posts_replied_to:
                         if author in username_log:
                             posts_replied_to.append(submission.id)
-                            comment = submission.reply("You have already submitted a request today. Please try again tomorrow.")
+                            comment = submission.reply("You have already submitted an ID request today. Please try again tomorrow.")
                             comment.mod.distinguish(sticky=True)
                             submission.mod.remove()
                             print(f"{submission.title} was removed. {author} tried to submit more than 1 request in 24 hours")
