@@ -1,3 +1,5 @@
 praw.ini
 .pyc
 __pycache__
+posts_replied_to.txt
+username_log.txt
