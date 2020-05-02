@@ -12,7 +12,7 @@
     - Click "Create app"
     - Keep this tab open for the "Setting up Praw.ini" section.
     - (Optional) Install Geany text editor for easy code editing and running. I only recommend this text editor because it's easy to use and install, however, this is not an absolutely required step. It's just here if you want it to make running the bot easier. (Please Note: I am not affilated with Geany or its developers in any way, it is just the first text editor that I used when learning how to code and it made running Python scripts easier.
-    - Open main.py in geany.
+    - Open timer.py in geany. (Main.py for this program contains the back-end. Timer.py is the front-end code.)
     - To run program in geany, simply press the F5 key.
     - Thank You and I hope you enjoy this program!
 
