@@ -10,7 +10,7 @@ from threading import Timer
 
 reddit=praw.Reddit('bot1')
 
-subreddit = reddit.subreddit("minerals")
+subreddit = reddit.subreddit("")
 
 
 def main():
