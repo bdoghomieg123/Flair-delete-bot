@@ -44,7 +44,7 @@
 
 - Setting up the Praw.ini. (See above: Setting up the Praw.ini file.)
 
-- Right click in the folder where main.py is and type: "Python3 main.py" in order to run the file. If you run into any errors, file an issue report.
+- Right click in the folder where timer.py is and type: "Python3 timer.py" in order to run the file. If you run into any errors, file an issue report.
 
 
 # Installing on MacOS
@@ -53,6 +53,3 @@
 - To install Python3 and Pip on MacOS, follow [this tutorial](https://evansdianga.com/install-pip-osx/).
 
 - After you have installed Python3 and pip for Python3, you can follow the rest of the Linux instructions as they are the same.
-
-# Modification instructions
-- to Change the subreddit this bot searches on, change the text inside the quotes of line 27
