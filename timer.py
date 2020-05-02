@@ -2,8 +2,6 @@ import praw
 from common import clear
 import os
 import time
-import pytz
-import pprint
 from datetime import datetime
 from threading import Timer
 from main import *
