@@ -12,7 +12,7 @@
     - Click "Create app"
     - Keep this tab open for the "Setting up Praw.ini" section.
     - (Optional) Install Geany text editor for easy code editing and running. I only recommend this text editor because it's easy to use and install, however, this is not an absolutely required step. It's just here if you want it to make running the bot easier. (Please Note: I am not affilated with Geany or its developers in any way, it is just the first text editor that I used when learning how to code and it made running Python scripts easier.
-    - Open main.py in geany.
+    - Open timer.py in geany. (Main.py for this program contains the back-end. Timer.py is the front-end code.)
     - To run program in geany, simply press the F5 key.
     - Thank You and I hope you enjoy this program!
 
@@ -36,7 +36,7 @@
 - If Previous step turns back an error such as "Python3 not found," type "sudo apt-get install Python3" to install Python3.
 
 
-- Install pip package manager in order to install the praw module. If you already have Python pip3 installed, skip this step. If you don't, or are unsure, type "sudo apt-get install Python3-pip." (If using macOS, the command is: )
+- Install pip package manager in order to install the praw module. If you already have Python pip3 installed, skip this step. If you don't, or are unsure, type "sudo apt-get install Python3-pip."
 
 
 - (Optional) Install Geany text editor for easy code editing and running. I only recommend this text editor because it's easy to use and install, however, this is not an absolutely required step. It's just here if you want it to make running the bot easier. (Please Note: I am not affilated with Geany or its developers in any way, it is just the first text editor that I used when learning how to code and it made running Python scripts easier.)
@@ -44,7 +44,7 @@
 
 - Setting up the Praw.ini. (See above: Setting up the Praw.ini file.)
 
-- Right click in the folder where main.py is and type: "Python3 main.py" in order to run the file. If you run into any errors, file an issue report.
+- Right click in the folder where timer.py is and type: "Python3 timer.py" in order to run the file. If you run into any errors, file an issue report.
 
 
 # Installing on MacOS
@@ -53,6 +53,3 @@
 - To install Python3 and Pip on MacOS, follow [this tutorial](https://evansdianga.com/install-pip-osx/).
 
 - After you have installed Python3 and pip for Python3, you can follow the rest of the Linux instructions as they are the same.
-
-# Modification instructions
-- to Change the subreddit this bot searches on, change the text inside the quotes of line 27

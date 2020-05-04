@@ -10,7 +10,7 @@ from threading import Timer
 
 reddit=praw.Reddit('bot1')
 
-subreddit = reddit.subreddit("bdoghomieg123")
+subreddit = reddit.subreddit("minerals")
 
 
 def main():
@@ -60,10 +60,10 @@ def main():
                             submission.mod.remove()
                             print(f"{submission.title} was removed. {author} tried to submit more than 1 request in 24 hours")
 
-    with open("username_log.txt", "w") as f:
-        for author in username_log:
-            f.write(author + "\n")
+        with open("username_log.txt", "w") as f:
+            for author in username_log:
+                f.write(author + "\n")
 
-    with open("posts_replied_to.txt", "w") as f:
-        for post_id in posts_replied_to:
-            f.write(post_id + "\n")
+        with open("posts_replied_to.txt", "w") as f:
+            for post_id in posts_replied_to:
+                f.write(post_id + "\n")
