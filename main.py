@@ -19,6 +19,7 @@ def main():
     print(f"Bot started successfully. Bot will act on posts made after {datetime.now()}.")
     time.sleep(5)
     clear()
+    username_log = []
     if not os.path.isfile("username_log.txt"):
         username_log = []
 
